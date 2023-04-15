@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="MIT License"
+issueTrackerURL="https://github.com/LegoMaster3650/PeekLib/issues"
+
+[[mods]]
+modId="peeklib"
+version="${file.jarVersion}"
+displayName="PeekLib"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/peeklib"
+logoFile="peeklib.png"
+credits="Joe Mama"
+authors="LegoMaster3650"
+displayTest="MATCH_VERSION"
+description='''
+Easy previewing of item contents for mod devs!
+'''
+
+[[dependencies.peeklib]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.peeklib]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[modproperties.peeklib]
+	catalogueItemIcon="minecraft:glass_pane"
