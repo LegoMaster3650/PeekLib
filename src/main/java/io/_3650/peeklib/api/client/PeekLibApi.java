@@ -54,10 +54,10 @@ public class PeekLibApi {
 	}
 	
 	/**
-	 * Gets the renderer for the given item, WITHOUT APPLYING OVERRIDES
+	 * Gets the renderer for the given item, WITHOUT APPLYING OVERRIDES<br>
+	 * See {@linkplain #getPeekRenderer(ItemStack)} for the method you probably want
 	 * @param item The {@linkplain Item} to look for a renderer for
 	 * @return The {@linkplain IPeekRenderer} for the given item, if present, or <code>null</code> if not
-	 * @see {@linkplain #getPeekRenderer(ItemStack)} for the method you probably want
 	 */
 	public static IPeekRenderer getDirectRenderer(Item item) {
 		return PeekLibClient.getRenderer(item);

@@ -125,7 +125,7 @@ public class FluidRenderer {
 	 * @param stack The {@linkplain FluidStack} to display the amount of
 	 * @param unit The unit to divide the amount by for display
 	 * @param x The X value you'd use in {@linkplain ItemRenderer#renderGuiItemDecorations(Font, net.minecraft.world.item.ItemStack, int, int)}
-	 * @param y The Y value you'd use in {@linkplain ItemRenderer#renderGuiItemDecorations(Font, net.minecraft.world.item.ItemStack, int, int)a}
+	 * @param y The Y value you'd use in {@linkplain ItemRenderer#renderGuiItemDecorations(Font, net.minecraft.world.item.ItemStack, int, int)}
 	 * @param blitOffset The blit offset (z value) to render at
 	 * @param allowDecimal Whether to allow one decimal place to be displayed for display values under 100
 	 */
